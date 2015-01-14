@@ -32,7 +32,9 @@ Veewee::Session.declare({
   :shutdown_cmd => "shutdown -P now",
   :postinstall_files => [
    "build_time.sh",
-   "apt.sh",
+   "apt-dist-upgrade.sh",
+   "remove-old-kernels.sh",
+   "apt-packages.sh",
    "sudo.sh",
    "vagrant.sh",
 #   "ruby.sh",
